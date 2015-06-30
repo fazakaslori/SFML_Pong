@@ -3,3 +3,6 @@ Pong/Debug/
 *.suo
 *.user
 *.sdf
+Debug/
+Release/
+*.opensdf
