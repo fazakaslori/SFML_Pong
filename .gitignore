@@ -1,0 +1,5 @@
+Pong/Release/
+Pong/Debug/
+*.suo
+*.user
+*.sdf
