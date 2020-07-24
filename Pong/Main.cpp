@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include <iostream>
 
 int main()
 {
@@ -19,6 +20,8 @@ int main()
 		window.draw(shape);
 		window.display();
 	}
+
+	std::cout << "Hello World" << std::endl;
 
 	return 0;
 }
