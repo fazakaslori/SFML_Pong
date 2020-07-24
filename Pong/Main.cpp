@@ -1,4 +1,5 @@
 #include <SFML\Graphics.hpp>
+#include "Do.hpp"
 
 int main()
 {
@@ -19,6 +20,8 @@ int main()
 		window.draw(shape);
 		window.display();
 	}
+
+	Console::OutputWriter::Write ("Hello World");
 
 	return 0;
 }
